@@ -1,0 +1,13 @@
+[package]
+edition = { workspace = true }
+name    = "nopec"
+version = "0.0.0"
+
+[dependencies]
+bytecode = { workspace = true }
+compiler = { workspace = true }
+lang     = { workspace = true }
+vm       = { workspace = true }
+
+anyhow = { workspace = true }
+clap   = { workspace = true, features = ["derive"] }

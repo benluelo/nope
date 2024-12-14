@@ -1,0 +1,9 @@
+[package]
+edition = { workspace = true }
+name    = "vm"
+version = "0.0.0"
+
+[dependencies]
+bytecode = { workspace = true }
+
+thiserror = { workspace = true }

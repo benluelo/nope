@@ -1,0 +1,17 @@
+[workspace]
+members  = ["vm", "lang", "compiler", "bytecode", "nopec"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+
+[workspace.dependencies]
+bytecode = { path = "bytecode", default-features = false }
+compiler = { path = "compiler", default-features = false }
+lang     = { path = "lang", default-features = false }
+vm       = { path = "vm", default-features = false }
+
+anyhow    = "1.0.94"
+clap      = "4.5.23"
+peg       = "0.8.4"
+thiserror = "2.0.7"

@@ -1,0 +1,8 @@
+entrypoint {
+	noop
+	noop
+	noop
+	noop
+	noop
+	noop
+}
